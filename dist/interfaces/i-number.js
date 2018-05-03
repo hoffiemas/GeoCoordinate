@@ -53,25 +53,25 @@ Number.prototype.kmToMeter = function () {
  * converts NM to km and kt to km/h
  */
 Number.prototype.nmToKm = function () {
-    return this * 1, 852;
+    return this * 1.852;
 };
 /**
  * converts km to NM and km/h to kt
  */
 Number.prototype.kmToNm = function () {
-    return this / 1, 852;
+    return this / 1.852;
 };
 /**
  * converts meter to feet
  */
 Number.prototype.meterToFeet = function () {
-    return this * 3, 28084;
+    return this * 3.28084;
 };
 /**
  * converts feet to meter
  */
 Number.prototype.feetToMeter = function () {
-    return this / 3, 28084;
+    return this / 3.28084;
 };
 /**
  * converts feet to FL
